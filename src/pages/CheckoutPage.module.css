@@ -1,0 +1,12 @@
+.nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: #beb6b6;
+}

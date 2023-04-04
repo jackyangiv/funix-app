@@ -1,0 +1,8 @@
+.btnTop {
+  border: none;
+  background-color: white;
+}
+.btnTop:hover img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}

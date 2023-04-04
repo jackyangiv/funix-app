@@ -1,0 +1,29 @@
+.nav1 a {
+  text-decoration: none;
+  color: #000000;
+
+  font-style: italic;
+}
+
+/* .nav1 a:hover,
+.nav1 a:active,
+.nav1 a.active {
+  color: #f7a918;
+} */
+.nav-link a:hover {
+  color: #2e2310;
+}
+.nav-link:active {
+  color: #f7a918;
+}
+img {
+  width: 80%;
+}
+.btnTop {
+  border: none;
+  background-color: white;
+}
+.btnTop:hover img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}

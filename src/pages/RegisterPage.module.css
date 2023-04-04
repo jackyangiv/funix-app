@@ -1,0 +1,28 @@
+/* .img1 {
+  width: fit-content;
+} */
+.background {
+  max-width: 100%;
+  height: 100vh;
+  background-image: url("/src/Banner/banner1.jpg");
+  background-repeat: repeat-y;
+}
+.box {
+  position: fixed;
+  top: 20vh;
+  left: 20%;
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+input {
+  border: none;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
